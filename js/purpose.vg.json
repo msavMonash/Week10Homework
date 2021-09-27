@@ -1,0 +1,31 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/msavMonash/Week10Homework/master/data/PurposeCaptiveWild.csv"},
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Purpose",
+        "type": "nominal",
+        "title": "Purpose of Import"
+      },
+      "y": {
+        "field": "Number",
+        "type": "quantitative"
+      },
+      "color": {
+        "field": "Source",
+        "type": "nominal",
+        "scale": {
+          "domain": ["Wild", "Captive"],
+          "range": ["#00ab08", "#08b3e5"]
+        },
+        "title": "Source"
+      },
+
+      "tooltip": [
+        {"field": "Purpose", "type": "nominal", "title": "Purpose"},
+        {"field": "Number", "type": "quantitative", "title": "Number"},
+        {"field": "Source", "type": "nominal", "title": "Source"}
+        ]
+    }
+  }
