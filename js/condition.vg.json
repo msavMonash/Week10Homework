@@ -4,10 +4,40 @@
     "width": 600,
     "height": 400,
     "data": {"url": "https://raw.githubusercontent.com/msavMonash/Week10Homework/master/data/ConditionCaptiveWild.csv"},
+    "params": [
+        {
+            "name": "Condition_group",
+            "bind": {
+                "input": "select",
+                "options": [
+                    null, 
+                    "Body part",
+                    "Bone",
+                    "Eggs",
+                    "Extracts",
+                    "Other",
+                    "Skin",
+                    "Whole"
+                ],
+                "labels": [
+                    "Show All",
+                    "Body part",
+                    "Bone",
+                    "Eggs",
+                    "Extracts",
+                    "Other",
+                    "Skin",
+                    "Whole"
+                ],
+                "name": "Condition Group: "
+            }
+        }
+    ],
     "mark": "bar",
     "transform": [
         {"calculate":"datum.Number / datum.Total", "as":"PercentCondition"},
-        {"calculate":"datum.Number / datum.Total * 100", "as":"CalcPercentCondition"}
+        {"calculate":"datum.Number / datum.Total * 100", "as":"CalcPercentCondition"},
+        {"filter": "Condition_group == null || datum.Group == Condition_group"}
     ],
     "encoding": {
       "x": {
