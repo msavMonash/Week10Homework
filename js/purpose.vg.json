@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Purpose of Importing Wild and Captive Animals (%)",
+    "title": "Purpose of Imported Wild and Captive Animals (%)",
     "width": 600,
     "height": 400,
     "data": {"url": "https://raw.githubusercontent.com/msavMonash/Week10Homework/master/data/PurposeCaptiveWild.csv"},
@@ -22,7 +22,7 @@
       "color": {
         "field": "Source",
         "type": "nominal",
-        "scale": {"range": ["#00ab08", "#08b3e5"]},
+        "scale": {"range": ["#08b3e5","#00ab08"]},
         "title": "Source"
       },
 
