@@ -17,7 +17,8 @@
       "y": {
         "field": "CalcPercentPurpose",
         "title": "% of Animals",
-        "type": "quantitative"
+        "type": "quantitative",
+        "axis": {"grid": false, "ticks": false}
       },
       "color": {
         "field": "Source",
