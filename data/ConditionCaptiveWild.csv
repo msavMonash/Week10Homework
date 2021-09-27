@@ -1,54 +1,107 @@
-Condition,Captive,Wild
-raw corals,142,585
-leather products (large),149,151
-bodies,246,91
-live,5618,2618
-leather products (small),1510,2770
-specimens,156,450
-eggs (live),19,2
-medicine,29,20
-hair,2,52
-garments,217,232
-unspecified,6,9
-pupae,9,0
-feathers,68,56
-skin pieces,52,142
-caviar,2,3
-bones,2,11
-carvings,4,112
-skins,143,548
-jewellery,22,138
-cloth,1,1
-meat,2,52
-eggshell,2,0
-derivatives,141,8
-carapaces,3,0
-skulls,2,64
-shells,6,43
-trophies,20,353
-scales,0,7
-eggs,0,2
-teeth,0,35
-tusks,0,26
-musk,0,7
-fur product (small),0,5
-fur products (large),0,1
-tails,0,4
-genitalia,0,5
-oil,0,2
-extract,0,8
-gall bladders,0,3
-feet,0,6
-skeletons,0,3
-horns,0,6
-fins,0,35
-pearl,0,28
-fingerlings,0,3
-claws,0,14
-rug,0,15
-hair products,0,23
-powder,0,1
-plates,0,1
-ivory carvings,0,7
-ivory pieces,0,1
-jewellery - ivory ,0,3
+Condition,Number,Source,Total
+raw corals,142,Captive,727
+leather products (large),149,Captive,300
+bodies,246,Captive,337
+live,5618,Captive,8236
+leather products (small),1510,Captive,4280
+specimens,156,Captive,606
+eggs (live),19,Captive,21
+medicine,29,Captive,49
+hair,2,Captive,54
+garments,217,Captive,449
+unspecified,6,Captive,15
+pupae,9,Captive,9
+feathers,68,Captive,124
+skin pieces,52,Captive,194
+caviar,2,Captive,5
+bones,2,Captive,13
+carvings,4,Captive,116
+skins,143,Captive,691
+jewellery,22,Captive,160
+cloth,1,Captive,2
+meat,2,Captive,54
+eggshell,2,Captive,2
+derivatives,141,Captive,149
+carapaces,3,Captive,3
+skulls,2,Captive,66
+shells,6,Captive,49
+trophies,20,Captive,373
+scales,0,Captive,7
+eggs,0,Captive,2
+teeth,0,Captive,35
+tusks,0,Captive,26
+musk,0,Captive,7
+fur product (small),0,Captive,5
+fur products (large),0,Captive,1
+tails,0,Captive,4
+genitalia,0,Captive,5
+oil,0,Captive,2
+extract,0,Captive,8
+gall bladders,0,Captive,3
+feet,0,Captive,6
+skeletons,0,Captive,3
+horns,0,Captive,6
+fins,0,Captive,35
+pearl,0,Captive,28
+fingerlings,0,Captive,3
+claws,0,Captive,14
+rug,0,Captive,15
+hair products,0,Captive,23
+powder,0,Captive,1
+plates,0,Captive,1
+ivory carvings,0,Captive,7
+ivory pieces,0,Captive,1
+jewellery - ivory ,0,Captive,3
+raw corals,585,Wild,727
+leather products (large),151,Wild,300
+bodies,91,Wild,337
+live,2618,Wild,8236
+leather products (small),2770,Wild,4280
+specimens,450,Wild,606
+eggs (live),2,Wild,21
+medicine,20,Wild,49
+hair,52,Wild,54
+garments,232,Wild,449
+unspecified,9,Wild,15
+pupae,0,Wild,9
+feathers,56,Wild,124
+skin pieces,142,Wild,194
+caviar,3,Wild,5
+bones,11,Wild,13
+carvings,112,Wild,116
+skins,548,Wild,691
+jewellery,138,Wild,160
+cloth,1,Wild,2
+meat,52,Wild,54
+eggshell,0,Wild,2
+derivatives,8,Wild,149
+carapaces,0,Wild,3
+skulls,64,Wild,66
+shells,43,Wild,49
+trophies,353,Wild,373
+scales,7,Wild,7
+eggs,2,Wild,2
+teeth,35,Wild,35
+tusks,26,Wild,26
+musk,7,Wild,7
+fur product (small),5,Wild,5
+fur products (large),1,Wild,1
+tails,4,Wild,4
+genitalia,5,Wild,5
+oil,2,Wild,2
+extract,8,Wild,8
+gall bladders,3,Wild,3
+feet,6,Wild,6
+skeletons,3,Wild,3
+horns,6,Wild,6
+fins,35,Wild,35
+pearl,28,Wild,28
+fingerlings,3,Wild,3
+claws,14,Wild,14
+rug,15,Wild,15
+hair products,23,Wild,23
+powder,1,Wild,1
+plates,1,Wild,1
+ivory carvings,7,Wild,7
+ivory pieces,1,Wild,1
+jewellery - ivory ,3,Wild,3

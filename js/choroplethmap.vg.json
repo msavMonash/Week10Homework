@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Percentage of Wild Animal Trade Imports in 2016",
+    "title": "Wild Animal Trade Imports (%)",
     "width": 1000,
     "height": 800,
     "config":{"background":"#ffffff"},
